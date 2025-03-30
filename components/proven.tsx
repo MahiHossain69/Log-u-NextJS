@@ -133,7 +133,7 @@ function Proven() {
               alt={projects[currentProject].title}
               className={`object-cover w-full h-full transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"}`}
               onLoad={() => {
-                setLoadedImages((prev) => new Set([...prev, currentProject]));
+                setLoadedImages((prev) => new Set([1, currentProject]));
                 setIsLoading(false);
               }}
             />
