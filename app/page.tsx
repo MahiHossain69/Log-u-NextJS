@@ -450,7 +450,7 @@ export default function Home() {
       </div>
     </footer>
        <div className="bg-[#3276DE14] h-[65px] xs:h-[100px] sm:h-[100px] lg:h-[65px]">
-       <div className="flex flex-col md:flex-row sm:w-[690px] lg:w-[895px] xl:max-w-full  mx-auto justify-between items-center pt-6 border-t border-white/10">
+       <div className="flex flex-col md:flex-row sm:w-[690px] lg:w-[895px] xl:w-[1290px]  mx-auto justify-between items-center pt-6 border-t border-white/10">
           <p className="text-sm text-gray-400 mb-4 md:mb-0 tracking-wide">
             © Log U 2025. All rights reserved.
           </p>
