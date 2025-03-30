@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Briefcase, Users } from "lucide-react";
 
 
 function contact() {
@@ -23,11 +24,13 @@ function contact() {
         {
             id: "product",
             title: "I want to create a product",
+             icon: <Briefcase className="w-6 h-6 mx-auto" />, // Adding an icon
            
         },
         {
             id: "talent",
             title: "I need top-notch talent",
+             icon: <Users className="w-6 h-6 mx-auto" />, // Adding an icon
            
         }
     ];
