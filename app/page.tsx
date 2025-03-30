@@ -96,7 +96,7 @@ export default function Home() {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-[#020817]/80 backdrop-blur-md shadow-lg" : "bg-transparent"
         } py-6 px-4 md:px-8`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <img src="/logo.png" />
+          <img src="/Logo.png" />
 
           <div className="hidden md:flex space-x-8">
             <ul className="hidden md:flex space-x-8">
@@ -379,7 +379,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
           {/* Logo */}
           <div className="mb-8 md:mb-0 group">
-            <a href="#"><img src="/logo.png"></img></a>
+            <a href="#"><img src="/Logo.png"></img></a>
           </div>
 
           {/* Right Section: Offices and Social */}
